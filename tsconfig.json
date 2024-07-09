@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "node16",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "moduleResolution": "node16",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts", "src/components/d"],
+  "exclude": ["node_modules"]
+}
